@@ -1,3 +1,4 @@
+console.log('just for git')
 const weatherForm=document.querySelector('form');
 const inputText=document.querySelector('input');
 const messageOne=document.querySelector('#msg_1');
