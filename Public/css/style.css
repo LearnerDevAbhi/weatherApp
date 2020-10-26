@@ -1,0 +1,55 @@
+body{
+    
+    display: flex;
+    flex-direction:column;
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0px 0px;
+
+}
+.headerDiv p{
+    text-align: center;
+   font-weight: bold;
+}
+.headerDiv form{
+    text-align: center;
+}
+.headerDiv header p{
+color:gray;
+font-size: 100px ;
+font-family: Arial ;
+text-align: center;
+margin: 0px 0px;
+
+}
+.headerDiv{
+    flex-grow: 1;
+}
+.headerDiv header div {
+    text-decoration: none;
+    font-family: Arial ;
+    text-align: center;
+
+    }
+    .headerDiv header div a {
+        text-decoration: none;
+        font-family: Arial ;
+        margin-left: 20px;
+        text-align: center;
+        color:darkcyan;
+
+        }
+
+footer{
+color:black;
+font-size: 20px;
+    border-top: 1px solid gray;
+    margin:0px 35px;
+    padding:0px 0px;
+}
+footer h4{
+    margin:0px 10px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   padding-left: 35px;
+}
