@@ -13,7 +13,7 @@ weatherForm.addEventListener('submit',(e)=>{
              if(weatherData.error){
                  messageTwo.textContent=weatherData.error;
              }else{
-                messageOne.textContent="Temperatur is " + weatherData.Data.temp+"digree, it feelsike"+weatherData.Data.feelslike+"digree and ther is "+weatherData.Data.rainChances+"% rainChance and Humidity is "+weatherData.Data.humidity ;
+                messageOne.textContent="Temperatur is " + weatherData.Data.temp+"digree, it feelsike"+weatherData.Data.feelslike+"digree and ther is "+weatherData.Data.rainChances+"% rainChance and Humidity is "+weatherData.Data.humid ;
                 messageTwo.textContent=weatherData.Location
              }
          })
